@@ -1,0 +1,68 @@
+body{
+	background-color: hsla(130,50%,35%,.7);
+}
+
+body, input{
+
+	font-family: 'Open Sans', sans-serif;
+	color: #363639;
+}
+.list{
+	width: 100%;
+	margin: 20px auto;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 500px;
+	box-sizing: border-box;
+}
+.list .headingh1 {
+	font-family: 'sans-serif', serif;
+	color: tomato;
+}
+
+.list-items{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.todoaddform{
+	width: 100%;
+}
+
+.todoaddform:focus {
+	outline: none;
+}
+
+.list-items li, .additems.todoaddform{
+	padding: 15px 0;
+	border: 0;
+	border-bottom: 1px;
+
+}
+
+.submit {
+
+	background-color: white;
+	margin-top: 20px;
+	width: 100%;
+	padding: 10px 5px;
+	border: 1px solid;
+}
+.markdone {
+display: inline-block;
+color: grey;
+opacity: 0.4;
+font-size: 0.9em;
+}
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed ;
+	background-color: lightgrey;
+
+}
+
+.list-items .item.done {
+	text-decoration: line-through;
+}
