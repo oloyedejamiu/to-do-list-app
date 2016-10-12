@@ -66,3 +66,7 @@ a {
 .list-items .item.done {
 	text-decoration: line-through;
 }
+
+.list-items li:hover .markdone {
+	opacity: 1;
+}
